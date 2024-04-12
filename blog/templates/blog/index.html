@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+	{% load static %}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>الإسطرلاب</title>
+		<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+		<script src="https://kit.fontawesome.com/d75b1ad41e.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="lateef-arabic">
+		<div id="mainbar" class="hero wrap centered">
+			<img id="logo" class="w-1 pd-t isgold" src="{% static 'img/logo.png' %}" width="80" height="100"/>
+			<div id="empty-space" class="w-4"></div>
+			<div id="navbar" class="w-4 pd-t">
+				<a class="mg-l font-lg isgold">تواصل معنا</a>
+				<a class="mg-l font-lg isgold">الثانوي</a>
+				<a class="mg-l font-lg isgold">المتوسط</a>
+				<a class="mg-l font-lg isgold">الابتدائي</a>
+			</div>
+		</div>
+		<div class="rows centered">
+			<p class="row font-lg">:مرحبا بكم في مدونة الإسطرلاب</p>
+			<p class="row font-ml">هنا تجد جميع حلول تمارين الكتب المدرسية في الرياضيات و الفيزياء لكل المستويات</p>
+		</div>
+		<br></br>
+		<div class="centerTop wrap">
+			<div id="mth-block" class="w-4">
+				<table width="100%">
+					<th class="font-xlg bg-gold pd-2 rounded" width="100%">
+						الرياضيـــات
+					</th>
+					<tr class="slideLeftfs">
+						<td class="centered font-lg rows">
+							<a class="bg-black w-10 centered rounded">الثانوي</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="mthSec3">الثالثة</li>
+								<li name="Levels" data-id="mthSec2">الثانية</li>
+								<li name="Levels" data-id="mthSec1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="slideLeftmd">
+						<td class="centered font-lg rows">
+							<a class="bg-chestnut w-10 centered rounded">المتوسط</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="mthMid4">الرابعة</li>
+								<li name="Levels" data-id="mthMid3">الثالثة</li>
+								<li name="Levels" data-id="mthMid2">الثانية</li>
+								<li name="Levels" data-id="mthMid1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="slideLeftsl">
+						<td class="centered font-lg rows">
+							<a class="bg-brass w-10 centered rounded">الابتدائي</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="mthPrm5">الخامسة</li>
+								<li name="Levels" data-id="mthPrm4">الرابعة</li>
+								<li name="Levels" data-id="mthPrm3">الثالثة</li>
+								<li name="Levels" data-id="mthPrm2">الثانية</li>
+								<li name="Levels" data-id="mthPrm1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="phy-block" class="w-4">
+				<table width="100%">
+					<th class="font-xlg bg-gold pd-2 rounded" width="100%">
+						الفـــيــزيــــاء
+					</th>
+					<tr class="slideLeftfs">
+						<td class="centered font-lg rows">
+							<a class="bg-black w-10 centered rounded">الثانوي</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="phySec3">الثالثة</li>
+								<li name="Levels" data-id="phySec2">الثانية</li>
+								<li name="Levels" data-id="phySec1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="slideLeftmd">
+						<td class="centered font-lg rows">
+							<a class="bg-chestnut w-10 centered rounded">المتوسط</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="phyMid4">الرابعة</li>
+								<li name="Levels" data-id="phyMid3">الثالثة</li>
+								<li name="Levels" data-id="phyMid2">الثانية</li>
+								<li name="Levels" data-id="phyMid1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="slideLeftsl">
+						<td class="centered font-lg rows">
+							<a class="bg-brass w-10 centered rounded">الابتدائي</a>
+							<ul class="font-ml">
+								<li name="Levels" data-id="phyPrm5">الخامسة</li>
+								<li name="Levels" data-id="phyPrm4">الرابعة</li>
+								<li name="Levels" data-id="phyPrm3">الثالثة</li>
+								<li name="Levels" data-id="phyPrm2">الثانية</li>
+								<li name="Levels" data-id="phyPrm1">الأولى</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+	</body>
+</html>

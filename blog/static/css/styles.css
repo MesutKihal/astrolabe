@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
+
+@font-face {
+	font-family: 'Scheherazade';
+	src: url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+}
+
+@font-face {
+	font-family: 'Lateef';
+	src: url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+}
+
+.scheherazade-arabic {
+	font-family: 'Scheherazade', serif;
+}
+
+.lateef-arabic {
+	font-family: 'Lateef', serif;
+}
+
+body {
+	background-color: #FFF7E1;
+	margin: 0px;
+}
+
+/* p { */
+  /* line-height: 0; */
+/* } */
+
+ul {
+  list-style-type: none;
+}
+
+p {
+	text-align: center;
+}
+
+.hero {
+	background-color: black;
+	height: 10%;
+	width: 100%;
+	/* margin-top: -25px; */
+	padding: 0px;
+}
+
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.row {
+	position: relative;
+}
+
+.rows {
+	display: flex;
+	flex-direction: column;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.centerTop {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
+
+.font-xlg {
+	font-size: 50px;
+}
+
+.font-lg {
+	font-size: 30px;
+}
+
+.font-ml {
+	font-size: 25px;
+}
+
+.font-md {
+	font-size: 20px;
+}
+
+.font-sm {
+	font-size: 10px;
+}
+
+.isgold {
+	color: #E5B80B;
+}
+
+
+.w-1 {
+	width: 10%;
+}
+
+.w-2 {
+	width: 20%;
+}
+
+.w-3 {
+	width: 30%;
+}
+
+.w-4 {
+	width: 40%;
+}
+
+.w-5 {
+	width: 50%;
+}
+
+.w-10 {
+	width: 100%;
+}
+
+.pd-t {
+	padding-top: 20px;
+}
+
+.pd-2 {
+	padding: 20px;
+}
+
+.rounded {
+	border-radius: 10px;
+}
+
+.mg-l {
+	margin-left: 20px;
+}
+
+.mg-r {
+	margin-right: 5rem;
+}
+
+.bg-gold {
+	background-color: #E5B80B;
+}
+
+.bg-black {
+	background-color: black;
+	color: #E5B80B;
+}
+
+.bg-brass {
+	background-color: #E1C16E;
+	color: black;
+}
+
+.bg-chestnut {
+	background-color: #954535;
+	color: white;
+}
+
+
+.righted {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+@keyframes slideLeft {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.slideLeftfs {
+	opacity: 0;
+	transform: translateX(50px);
+	animation: slideLeft 0.5s ease-in-out forwards;
+}
+
+.slideLeftmd {
+	opacity: 0;
+	transform: translateX(50px);
+	animation: slideLeft 0.8s ease-in-out forwards;
+}
+
+.slideLeftsl {
+	opacity: 0;
+	transform: translateX(50px);
+	animation: slideLeft 1s ease-in-out forwards;
+}

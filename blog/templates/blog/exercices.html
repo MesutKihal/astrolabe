@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		{% load static %}
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>الإسطرلاب</title>
+		<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+		<script src="https://kit.fontawesome.com/d75b1ad41e.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="lateef-arabic">
+		<div id="mainbar" class="hero wrap centered">
+			<img id="logo" class="w-1 pd-t isgold" src="{% static 'img/logo.png' %}" width="80" height="100"/>
+			<div id="empty-space" class="w-4"></div>
+			<div id="navbar" class="w-4 pd-t">
+				<a class="mg-l font-lg isgold">تواصل معنا</a>
+				<a class="mg-l font-lg isgold">الثانوي</a>
+				<a class="mg-l font-lg isgold">المتوسط</a>
+				<a class="mg-l font-lg isgold">الابتدائي</a>
+			</div>
+		</div>
+		<script>
+			var data = '{{ data | safe }}';
+			console.log(data);
+		</script>
+		<script type="text/javascript" src="{% static 'js/exercices.js' %}"></script>
+	</body>
+</html>
